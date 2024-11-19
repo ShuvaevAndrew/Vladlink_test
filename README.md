@@ -64,14 +64,13 @@
 
 ## Файлы проекта
 
-import_categories.php — скрипт для импорта категорий из categories.json.
-export_type_a.php — скрипт для экспорта данных в формате type_a.txt.
-export_type_b.php — скрипт для экспорта данных в формате type_b.txt.
-list_menu.php — отображение категорий в браузере.
-categories.json — исходный файл данных для импорта.
-
-type_a.txt — файл экспорта категорий с полным путём.
-type_b.txt — файл экспорта категорий первого уровня.
+* import_categories.php — скрипт для импорта категорий из categories.json.
+* export_type_a.php — скрипт для экспорта данных в формате type_a.txt.
+* export_type_b.php — скрипт для экспорта данных в формате type_b.txt.
+* list_menu.php — отображение категорий в браузере.
+* categories.json — исходный файл данных для импорта.
+* type_a.txt — файл экспорта категорий с полным путём.
+* type_b.txt — файл экспорта категорий первого уровня.
 
 
 
