@@ -21,7 +21,7 @@
 4. Проверьте, что файл `categories.json` находится в папке с остальными файлами проекта.
 5. Выполните скрипт импорта: 
    ```bash
-   php import_categories.php
+php import_categories.php
 
 ## Использование
 
