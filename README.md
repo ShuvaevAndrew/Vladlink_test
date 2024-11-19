@@ -20,8 +20,9 @@
 3. В файлах `import_categories.php, list_menu.php, type_a.php, type_b.php` еняет настройки подключения к БД (например, имя пользователя, пароль, если они не совпадают)
 4. Проверьте, что файл `categories.json` находится в папке с остальными файлами проекта.
 5. Выполните скрипт импорта: 
-   ```bash
-php import_categories.php
+```bash
+  php import_categories.php
+```
 
 ## Использование
 
@@ -35,7 +36,7 @@ php import_categories.php
 Откройте в браузере:
 
 ```bash
-http://localhost:8000/list_menu.php
+  http://localhost:8000/list_menu.php
 ```
 
 ## Экспорт данных
@@ -45,7 +46,7 @@ http://localhost:8000/list_menu.php
 Сгенерируйте файл с полным путём категорий:
 
 ```bash
-php export_type_a.php
+  php export_type_a.php
 ```
 
 Результат сохранится в type_a.txt.
@@ -55,7 +56,7 @@ php export_type_a.php
 Сгенерируйте файл с категориями первого уровня:
 
 ```bash
-php export_type_b.php
+  php export_type_b.php
 ```
 Результат сохранится в type_b.txt.
 
